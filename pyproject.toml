@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "icmd-moleculsgeneration-project"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Golov <ivangolov@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.2"
+pandas = "^2.2.3"
+matplotlib = "^3.9.2"
+rdkit = "^2024.3.5"
+torch-geometric = "^2.6.1"
+torch = "2.2.2"
+chembl-webresource-client = "^0.10.9"
+scikit-learn = "^1.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
